@@ -6,7 +6,8 @@
 
 Username enumeration is a popular vulnerability that affects all types of applications. It happens when a malicious actor is able to build up a list of valid usernames from the application or system. 
 
-* This practice is pretty common in all kinds of applications, but web apps are especially vulnerable to this type of risk, due to the validation controls that can let the attacker know if some users are invalid or not due to the usage of ‘Invalid username’ and similar messages.
+* This practice is pretty popular in all kinds of applications, but web apps are especially vulnerable to this type of risk, due to the validation controls that can let the attacker know if some users are invalid or not due to the usage of ‘Invalid username’ and similar messages.
+
 ## Solution
 
 - [x] Avoid displaying validation messages like “Invalid username” to the end-users.
